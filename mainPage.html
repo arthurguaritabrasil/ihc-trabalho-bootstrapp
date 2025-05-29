@@ -5,11 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stranger Things</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/mainPage.css">
 </head>
 <body>
 
+    <!-- Menu navbar do site -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top shadow">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img src="assets/logoMenu.png" alt="logoMenu" class="img-fluid" style="height: 40px;">
+                </a>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="#sinopse" class="nav-link">Sinopse</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#elenco" class="nav-link">Elenco</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#personagens" class="nav-link">Personagens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#curiosidades" class="nav-link">Curiosidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#imagens" class="nav-link">Imagens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#trilhaSonora" class="nav-link">Trilha Sonora</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Nome da série e imagem-->
+
+    <main class="pt-4">
+        <section class="container-fluid mt-5">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center justify-content-center text-area">
+                    <h1 class="titlePage text-center">Stranger Things</h3>
+                </div>
+                <div class="col-md-6 image-placeholder">
+                    <img class="img-fluid w-100 h-100" src="assets/stranger things img.jpg" alt="teste">
+                </div>
+
+                <div class="row" style="background-color: #1e193c; color: white;">
+                    <div class="col-12 d-flex align-items-center justify-content-center" >
+                        <h2 class="text-center">Sinopse</h2>
+                    </div>
+                </div>
+
+                <div class="row" style="background-color: #1e193c; color: white;">
+                    <div class="col-4 image-placeholder">
+                        <img class="img-fluid w-100 h-100" src="assets/stranger things img.jpg" alt="teste2">
+                    </div>
+                    <div class="col-8 text-area">
+                        <p>aqui fica a sinopse</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-ppYpGL1G4EIQv7zF8E5RVcwPewzq3TcNH3svFvA9OqlDpYjUm50AEJWZH/zOZnKR" crossorigin="anonymous"></script>
 
 </body>
 </html>

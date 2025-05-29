@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'strangerThings';
+    src: url(/assets/Benguiat\ Bold.ttf);
+    font-weight: normal;
+    font-weight: normal;
+}
+
+.titlePage {
+    font-family: strangerThings;
+    font-weight: bold;
+    font-size: 4rem;
+    
+}
