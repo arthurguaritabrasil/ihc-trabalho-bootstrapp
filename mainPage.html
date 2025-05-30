@@ -11,7 +11,7 @@
 
     <!-- Menu navbar do site -->
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top shadow">
+        <nav class="navbar navbar-expand-lg fixed-top shadow navbar-light" style="position: relative;">
             <div class="container-fluid">
                 <a href="#" class="navbar-brand">
                     <img src="assets/logoMenu.png" alt="logoMenu" class="img-fluid" style="height: 40px;">
@@ -47,34 +47,44 @@
         </nav>
     </header>
 
-    <!--Nome da série e imagem-->
-
-    <main class="pt-4">
-        <section class="container-fluid mt-5">
+    <main>
+        <!--Nome e imagem-->
+        <section class="container-fluid">
             <div class="row">
                 <div class="col-md-6 d-flex align-items-center justify-content-center text-area">
-                    <h1 class="titlePage text-center">Stranger Things</h3>
+                    <h1 class="titlePage text-center display-1">STRANGER THINGS</h3>
                 </div>
                 <div class="col-md-6 image-placeholder">
-                    <img class="img-fluid w-100 h-100" src="assets/stranger things img.jpg" alt="teste">
-                </div>
-
-                <div class="row" style="background-color: #1e193c; color: white;">
-                    <div class="col-12 d-flex align-items-center justify-content-center" >
-                        <h2 class="text-center">Sinopse</h2>
-                    </div>
-                </div>
-
-                <div class="row" style="background-color: #1e193c; color: white;">
-                    <div class="col-4 image-placeholder">
-                        <img class="img-fluid w-100 h-100" src="assets/stranger things img.jpg" alt="teste2">
-                    </div>
-                    <div class="col-8 text-area">
-                        <p>aqui fica a sinopse</p>
-                    </div>
+                    <img class="img-fluid w-100" src="assets/stranger things img.jpg" alt="teste">
                 </div>
             </div>
         </section>
+
+        <!--Sinopse-->
+
+        <section class="container-fluid">
+
+            <div class="row py-5" style="background-color: #1e193c; color: white; border-bottom: 2px solid white;">
+                <div class="col-12 d-flex align-items-center justify-content-center text-center" >
+                    <h2 id="sinopse" class="text-center display-6">Sinopse</h2>
+                </div>
+            </div>
+
+            <div class="row" style="background-color: #1e193c; color: white;">
+                <div class="col-4 image-placeholder">
+                    <img class="img-fluid w-100" src="assets/strangerImg1.jpg" alt="teste2">
+                </div>
+                <div class="col-8 text-area fs-4">
+                    <p>Situada no início dos anos 1980, Stranger Things se passa na cidade rural fictícia de Hawkins, Indiana. Como fachada, o laboratório da região realizava experimentos científicos para o Departamento de Energia Americano, quando na realidade, os pesquisadores ali investiram em experimentos com o paranormal e o sobrenatural, incluindo o uso de cobaias humanas. Não intencionalmente, eles criaram um portal para uma dimensão alternativa conhecida como Mundo Invertido, o que iria impactar a vida dos residentes da pequena cidade. Em 1983, quando Will Byers (Noah Schnapp), um menino de 12 anos, desaparece misteriosamente, o xerife Jim Hopper (David Harbour) inicia uma operação para encontrá-lo. Enquanto isso, Mike (Finn Wolfhard), Dustin (Gaten Matarazzo) e Lucas (Caleb McLaughlin), melhores amigos de Will, decidem procurá-lo por conta própria. Mas as investigações acabam levando o grupo em direção aos experimentos secretos do governo e a Eleven (Millie Bobby Brown), uma peculiar menina perdida na floresta. Assim como as crianças, a mãe Joyce Byers (Winona Ryder) está determinada e fará o impossível para rever o filho.</p>
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-ppYpGL1G4EIQv7zF8E5RVcwPewzq3TcNH3svFvA9OqlDpYjUm50AEJWZH/zOZnKR" crossorigin="anonymous"></script>
