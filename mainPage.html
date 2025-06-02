@@ -11,7 +11,7 @@
 
     <!-- Menu navbar do site -->
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top shadow navbar-light" style="position: relative;">
+        <nav class="navbar navbar-expand-lg fixed-top shadow" style="position: relative;">
             <div class="container-fluid">
                 <a href="#" class="navbar-brand">
                     <img src="assets/logoMenu.png" alt="logoMenu" class="img-fluid" style="height: 40px;">
@@ -43,6 +43,7 @@
                         </li>
                     </ul>
                 </div>
+
             </div>
         </nav>
     </header>
@@ -51,12 +52,10 @@
         <!--Nome e imagem-->
         <section class="container-fluid">
             <div class="row">
-                <div class="col-md-6 d-flex align-items-center justify-content-center text-area">
+                <div class="col-md-12 p-5 d-flex align-items-center justify-content-center text-area">
                     <h1 class="titlePage text-center display-1">STRANGER THINGS</h3>
                 </div>
-                <div class="col-md-6 image-placeholder">
-                    <img class="img-fluid w-100" src="assets/stranger things img.jpg" alt="teste">
-                </div>
+            
             </div>
         </section>
 
@@ -64,17 +63,17 @@
 
         <section class="container-fluid">
 
-            <div class="row py-5" style="background-color: #1e193c; color: white; border-bottom: 2px solid white;">
-                <div class="col-12 d-flex align-items-center justify-content-center text-center" >
-                    <h2 id="sinopse" class="text-center display-6">Sinopse</h2>
+            <div class="row py-3" style="background-color: #595959;">
+                <div class="col-md-12 d-flex align-items-center justify-content-center text-center" >
+                    <h2 id="sinopse" class="text-center display-5 fs-1" style="color: white; font-weight: bolder;">Sinopse</h2>
                 </div>
             </div>
 
-            <div class="row" style="background-color: #1e193c; color: white;">
-                <div class="col-4 image-placeholder">
-                    <img class="img-fluid w-100" src="assets/strangerImg1.jpg" alt="teste2">
+            <div class="row">
+                <div class="col-md-4 image-placeholder">
+                    <img class="img-fluid w-100 mt-3" src="assets/imgSinopse.png" alt="teste2">
                 </div>
-                <div class="col-8 text-area fs-4">
+                <div class="col-md-8 text-area fs-4 d-flex align-items-center">
                     <p>Situada no início dos anos 1980, Stranger Things se passa na cidade rural fictícia de Hawkins, Indiana. Como fachada, o laboratório da região realizava experimentos científicos para o Departamento de Energia Americano, quando na realidade, os pesquisadores ali investiram em experimentos com o paranormal e o sobrenatural, incluindo o uso de cobaias humanas. Não intencionalmente, eles criaram um portal para uma dimensão alternativa conhecida como Mundo Invertido, o que iria impactar a vida dos residentes da pequena cidade. Em 1983, quando Will Byers (Noah Schnapp), um menino de 12 anos, desaparece misteriosamente, o xerife Jim Hopper (David Harbour) inicia uma operação para encontrá-lo. Enquanto isso, Mike (Finn Wolfhard), Dustin (Gaten Matarazzo) e Lucas (Caleb McLaughlin), melhores amigos de Will, decidem procurá-lo por conta própria. Mas as investigações acabam levando o grupo em direção aos experimentos secretos do governo e a Eleven (Millie Bobby Brown), uma peculiar menina perdida na floresta. Assim como as crianças, a mãe Joyce Byers (Winona Ryder) está determinada e fará o impossível para rever o filho.</p>
                 </div>
             </div>
@@ -82,85 +81,199 @@
         <!--Elenco-->
 
         <section class="container-fluid">
-            <div class="row py-5">
-                <div class="col-12 d-flex align-items-center justify-content-center text-center">
-                    <h2 id="elenco" class="text-center display-6">Elenco</h2>
+            <div class="row py-3 mt-3 mb-3" style="background-color: #595959;">
+                <div class="col-md-12 d-flex align-items-center justify-content-center text-center">
+                    <h2 id="elenco" class="text-center display-5 fs-1" style="color: white; font-weight: bolder;">Elenco principal</h2>
                 </div>
             </div>
 
             <div class="row row-cols-md-2 row-cols-sm-1 row-cols-lg-5">
-                <div class="col d-flex">
+            
+                <div class="col d-flex mb-4">
                     <div class="card h-100 w-100">
-                        <div class="card-body d-flex flex-column">
-                            <img class="card-img-top" src='assets/elenco/eleven.jpeg' alt="Eleven">
-                            <h2 class="card-title">Millie Bobby Brown</h2>
+                        <img class="card-img-top" src="assets/elenco/eleven.jpeg" alt="Millie">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Millie Bobby Brown</h5>
+                            <button type="button"
+                                    class="btn btn-sm btn-outline-primary fs-5 mt-2"
+                                    data-bs-toggle="popover"
+                                    data-bs-placement="top"
+                                    title="Dados"
+                                    data-bs-content="Millie Bonnie Brown Bongiovi, conhecida profissionalmente como Millie Bobby Brown, é uma atriz e cantora britânica nascida na Espanha. A atriz ganhou reconhecimento mundial e aclamação da crítica por seu papel como Onze na série de televisão Stranger Things da Netflix.">
+                                Saiba mais
+                            </button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col d-flex">
+                <div class="col d-flex mb-4">
                     <div class="card h-100 w-100">
-                        <div class="card-body d-flex flex-column">
-                            <img class="card-img-top" src='assets/elenco/mike.jpeg' alt="Eleven">
-                            <h2 class="card-title">Finn Wolfhard</h2>
+                        <img src="assets/elenco/mike.jpeg" alt="Finn" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Finn Wolfhard</h5>
+                            <button type="button"
+                                    class="btn btn-sm btn-outline-primary fs-5 mt-2"
+                                    data-bs-toggle="popover"
+                                    data-bs-placement="top"
+                                    title="Dados"
+                                    data-bs-content="Finn Michael Wolfhard é um ator, dublador, músico, roteirista e diretor canadense. Entre seus papéis inclui-se Mike Wheeler na série Stranger Things, da Netflix, pelo qual recebeu três indicações ao Prêmio Screen Actors Guild para melhor elenco em série de drama, ganhando uma.">
+                                Saiba mais
+                            </button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col d-flex">
+                <div class="col d-flex mb-4">
                     <div class="card h-100 w-100">
-                        <div class="card-body d-flex flex-column">
-                            <img class="card-img-top" src='assets/elenco/will.jpeg' alt="Eleven">
-                            <h2 class="card-title">Noah Schnapp</h2>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col d-flex">
-                    <div class="card h-100 w-100">
-                        <div class="card-body d-flex flex-column">
-                            <img class="card-img-top" src='assets/elenco/dustin.jpeg' alt="Eleven">
-                            <h2 class="card-title">Gaten Matarazzo</h2>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col d-flex">
-                    <div class="card h-100 w-100">
-                        <div class="card-body d-flex flex-column">
-                            <img class="card-img-top" src='assets/elenco/lucas.jpeg' alt="Eleven">
-                            <h2 class="card-title">Caleb McLaughlin</h2>
+                        <img src="assets/elenco/will.jpeg" alt="Noah" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Noah Schnapp</h5>
+                            <button type="button"
+                                    class="btn btn-sm btn-outline-primary fs-5 mt-2"
+                                    data-bs-toggle="popover"
+                                    data-bs-placement="top"
+                                    title="Dados"
+                                    data-bs-content="Noah Cameron Schnapp é um ator norte-americano. Ele ganhou reconhecimento por interpretar Will Byers na série de terror de ficção científica da Netflix, Stranger Things.">
+                                Saiba mais
+                            </button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col d-flex" style="">
+                <div class="col d-flex mb-4">
                     <div class="card h-100 w-100">
-                        <div class="card-body d-flex flex-column">
-                            <img class="card-img-top" src='assets/elenco/steve.jpeg' alt="Eleven">
-                            <h2 class="card-title">Joe Keery</h2>
+                        <img src="assets/elenco/lucas.jpeg" alt="Caleb" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Caleb McLaughlin</h5>
+                            <button type="button"
+                                    class="btn btn-sm btn-outline-primary fs-5 mt-2"
+                                    data-bs-toggle="popover"
+                                    data-bs-placement="top"
+                                    title="Dados"
+                                    data-bs-content="Caleb Reginald McLaughlin é um ator norte-americano, mais conhecido por interpretar Lucas Sinclair na série de televisão Stranger Things da Netflix. McLaughlin começou sua carreira no palco da Broadway como o jovem Simba no musical The Lion King.">
+                                Saiba mais
+                            </button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col d-flex">
+                <div class="col d-flex mb-4">
                     <div class="card h-100 w-100">
-                        <div class="card-body d-flex flex-column">
-                            <img class="card-img-top" src='assets/elenco/nancy.jpeg' alt="Eleven">
-                            <h2 class="card-title">Natalia Dyer</h2>
+                        <img src="assets/elenco/dustin.jpeg" alt="Gaten" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Gaten Matarazzo</h5>
+                            <button type="button"
+                                    class="btn btn-sm btn-outline-primary fs-5 mt-2"
+                                    data-bs-toggle="popover"
+                                    data-bs-placement="top"
+                                    title="Dados"
+                                    data-bs-content="Gaten John Matarazzo III é um ator norte-americano, mais conhecido por interpretar Dustin Henderson na série de televisão Stranger Things da Netflix.">
+                                Saiba mais
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex mb-4">
+                    <div class="card h-100 w-100">
+                        <img src="assets/elenco/max.jpeg" alt="Joe" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Sadie Sink</h5>
+                            <button type="button"
+                                    class="btn btn-sm btn-outline-primary fs-5 mt-2"
+                                    data-bs-toggle="popover"
+                                    data-bs-placement="top"
+                                    title="Dados"
+                                    data-bs-content="Sadie Elizabeth Sink é uma atriz norte-americana. É mais conhecida por interpretar Maxine 'Max' Mayfield na série televisiva Stranger Things da Netflix. Ela também apareceu em episódios de Blue Bloods, The Americans e interpretou Ziggy Berman em Fear Street Part Two: 1978. Ela também foi escalada para o novo filme do Homem-Aranha que lançará em julho de 2026 - Homem-Aranha: Um Novo Dia.">
+                                Saiba mais
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex mb-4">
+                    <div class="card h-100 w-100">
+                        <img src="assets/elenco/steve.jpeg" alt="Joe" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Joe Keery</h5>
+                            <button type="button"
+                                    class="btn btn-sm btn-outline-primary fs-5 mt-2"
+                                    data-bs-toggle="popover"
+                                    data-bs-placement="top"
+                                    title="Dados"
+                                    data-bs-content="Joseph David Keery, mais conhecido como Joe Keery ou pelo seu nome artístico Djo, é um ator e cantor norte-americano. É mais conhecido por interpretar Steve Harrington na série Stranger Things da Netflix. Também conhecido pela música 'End of Beginning'">
+                                Saiba mais
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex mb-4">
+                    <div class="card h-100 w-100">
+                        <img src="assets/elenco/nancy.jpeg" alt="Natalia" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Natalia Dyer</h5>
+                            <button type="button"
+                                    class="btn btn-sm btn-outline-primary fs-5 mt-2"
+                                    data-bs-toggle="popover"
+                                    data-bs-placement="top"
+                                    title="Dados"
+                                    data-bs-content="Natalia Danielle Dyer é uma atriz norte-americana, mais conhecida por interpretar Nancy Wheeler na série de televisão Stranger Things da Netflix.">
+                                Saiba mais
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex mb-4">
+                    <div class="card h-100 w-100">
+                        <img src="assets/elenco/jonathan.jpeg" alt="Charlie" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Charlie Heaton</h5>
+                            <button type="button"
+                                    class="btn btn-sm btn-outline-primary fs-5 mt-2"
+                                    data-bs-toggle="popover"
+                                    data-bs-placement="top"
+                                    title="Dados"
+                                    data-bs-content="Charlie Ross Heaton é um ator e músico britânico. É mais conhecido por interpretar Jonathan Byers na série de televisão Stranger Things da Netflix.">
+                                Saiba mais
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex mb-4">
+                    <div class="card h-100 w-100">
+                        <img src="assets/elenco/david.jpeg" alt="Natalia" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">David Harbour</h5>
+                            <button type="button"
+                                    class="btn btn-sm btn-outline-primary fs-5 mt-2"
+                                    data-bs-toggle="popover"
+                                    data-bs-placement="top"
+                                    title="Dados"
+                                    data-bs-content="David Kenneth Harbour é um ator norte-americano. Ganhou reconhecimento por seu papel como Jim Hopper na série de drama e ficção científica Stranger Things, pelo qual ele recebeu um Prêmio Critics' Choice em 2018. Por este papel ele também recebeu indicações ao Emmy do Primetime e Globo de Ouro.">
+                                Saiba mais
+                            </button>
                         </div>
                     </div>
                 </div>
 
             </div>
-        </section>
-
-        </section>
 
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
 
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+            popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl);
+            });
+        });
+    </script>
 
 </body>
 </html>

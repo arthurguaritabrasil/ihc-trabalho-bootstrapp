@@ -7,21 +7,28 @@
 
 .titlePage {
     font-family: strangerThings;
-    font-weight: bold;
+    font-weight: bolder;
     color: red;
-    -webkit-text-stroke: 2px #000;
+}
+
+.navbar {
+    background-color: black;
 }
 
 .nav-link {
-    color: red;
+    color: white;
     font-weight: bold;
     margin-left: 1rem;
 }
 
-.card {
-    border: 2px solid black;
+.nav-link:hover {
+    color: red;
 }
 
-.card-title {
-    margin-top: 1rem;
+.card {
+    border: 1px solid black;
+}
+
+.card:hover {
+    scale: calc(1.02);
 }
