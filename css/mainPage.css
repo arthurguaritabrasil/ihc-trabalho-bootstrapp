@@ -29,8 +29,49 @@
 
 .card {
     border: 1px solid black;
+    transition: transform 0.3s ease-in-out;
 }
 
 .card:hover {
-    scale: calc(1.02);
+    transform: scale(1.03);
+    box-shadow: 0 0 10px black;
+}
+
+.accordion-button {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #000 !important;
+    color: #fff !important;
+    box-shadow: none !important;
+}
+
+.accordion-button::after {
+    filter: invert(24%) sepia(100%) saturate(7470%) hue-rotate(0deg) brightness(94%) contrast(108%);
+}
+
+.card-img-top {
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card.stranger-things .btn-outline-primary {
+    border-color: #ff0000;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.card.stranger-things .btn-outline-primary:hover {
+    background-color: #ff0000;
+    color: white;
+    font-weight: bold;
+}
+
+.carousel-inner {
+    padding: 0 13rem;
 }
