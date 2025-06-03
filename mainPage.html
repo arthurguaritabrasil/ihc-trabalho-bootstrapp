@@ -63,10 +63,9 @@
         <!--Nome e imagem-->
         <section class="container-fluid">
             <div class="row">
-                <div class="col-md-12 p-5 d-flex align-items-center justify-content-center text-area mt-5">
-                    <h1 class="titlePage text-center display-1">STRANGER THINGS</h3>
+                <div class="col-12 p-3 p-md-5 d-flex align-items-center justify-content-center mt-5">
+                    <h1 class="text-center display-4 display-md-1 titlePage">STRANGER THINGS</h1>
                 </div>
-            
             </div>
         </section>
 
@@ -722,7 +721,7 @@
 
             <div class="row mb-3">
                 <div class="col-md-3">
-                    <div id="list-curiosidades" class="list-group">
+                    <div id="list-curiosidades" class="list-group list-group-numbered ">
                         <a class="list-group-item list-group-item-action p-4" href="#list-item-1">Superando a rejeição</a>
                         <a class="list-group-item list-group-item-action p-4" href="#list-item-2">Seus criadores</a>
                         <a class="list-group-item list-group-item-action p-4" href="#list-item-3">1.000 crianças</a>
@@ -783,54 +782,61 @@
         <!--Imagens-->
 
         <section class="container-fluid">
-
             <div class="row py-3 mt-3 mb-3 shadow" style="background-color: #595959;">
                 <div class="col-md-12 d-flex align-items-center justify-content-center text-center">
                     <h2 id="imagens" class="text-center display-5 fs-1" style="color: white; font-weight: bolder;">Imagens</h2>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-md-12">
-                    
-                    <button type="button" class="btn btn-primary w-100 p-3" data-bs-toggle="modal" data-bs-target="#imageModal">Ver Galeria de Imagens</button>
-                    
-                    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-xl modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="imageModalLabel">Galeria de Imagens</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
-                                </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
 
-                                <div class="modal-body">
-                                    <div id="carouselImages" class="carousel slide" data-bs-ride="carousel">
-                                        <div class="carousel-inner">
-                                            <div class="carousel-item active">
-                                                <img src="assets/imgSinopse.png" class="d-block w-100" alt="Imagem 1">
-                                            </div>
-                                            
-                                        
-                                        </div>
-                        
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselImages" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Anterior</span>
-                                    </button>
-
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselImages" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Próxima</span>
-                                    </button>
-                                    
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col d-flex">
+                    <div class="card h-100 w-100">
+                        <img src="assets/images/stranger-things-1.webp" alt="Imagem 1" class="card-img-top img-fluid img-fixed">
                     </div>
                 </div>
+
+                <div class="col d-flex">
+                    <div class="card h-100 w-100">
+                        <img src="assets/images/stranger-things-2.webp" alt="Imagem 2" class="card-img-top img-fluid img-fixed">
+                    </div>
+                </div>
+
+                <div class="col d-flex">
+                    <div class="card h-100 w-100">
+                        <img src="assets/images/stranger-things-season-3.webp" alt="Imagem 3" class="card-img-top img-fluid img-fixed">
+                    </div>
+                </div>
+
+                <div class="col d-flex">
+                    <div class="card h-100 w-100">
+                        <img src="assets/images/stranger-things-4.jpg" alt="Imagem 4" class="card-img-top img-fluid img-fixed">
+                    </div>
+                </div>
+
+                <div class="col d-flex">
+                    <div class="card h-100 w-100">
+                        <img src="assets/images/stranger-things-5.jpeg" alt="Imagem 5" class="card-img-top img-fluid img-fixed">
+                    </div>
+                </div>
+
+                <div class="col d-flex">
+                    <div class="card h-100 w-100">
+                        <img src="assets/images/stranger-things-6.jpg" alt="Imagem 6" class="card-img-top img-fluid img-fixed">
+                    </div>
+                </div>
+
+                <div class="col d-flex">
+                    <div class="card h-100 w-100">
+                        <img src="assets/images/stranger_things_7.webp" alt="Imagem 7" class="card-img-top img-fluid img-fixed">
+                    </div>
+                </div>
+
             </div>
-        </section>
+            </section>
+
+
+
 
         <!--Trilha Sonora-->
 
@@ -843,11 +849,29 @@
                 </div>
             </div>
 
-            <div class="row justify-content-center">
+            <div class="row justify-content-center mb-4">
                 <div class="col-md-8 w-100">
                     <div class="list-group">
-                        <a href="https://www.youtube.com/watch?v=wp43OdtAAkM" target="_blank" class="list-group-item list-group-item-action">
+                        <a href="https://www.youtube.com/watch?v=wp43OdtAAkM" target="_blank" class="list-group-item list-group-item-action p-3">
                             Kate Bush - Running up that Hill
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=Jb25W0P4ICs&list=PLGN_3oPS-L1d6jImML0oDqzUAHDiqFlss&index=1" target="_blank" class="list-group-item list-group-item-action p-3">
+                            Separate Ways (Worlds Apart) (Bryce Miller/Alloy Tracks Remix)
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=pCfpTK0IB-w&list=PLGN_3oPS-L1d6jImML0oDqzUAHDiqFlss&index=2" target="_blank" class="list-group-item list-group-item-action p-3">
+                            Stranger Things (Extended)
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=7qlU0bWMzUU&list=PLGN_3oPS-L1d6jImML0oDqzUAHDiqFlss&index=3" target="_blank" class="list-group-item list-group-item-action p-3">
+                            Never Ending Story
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=3DaFgaZKmOM&list=PLGN_3oPS-L1d6jImML0oDqzUAHDiqFlss&index=4" target="_blank" class="list-group-item list-group-item-action p-3">
+                            California Dreamin' (2007 Digital Remaster)
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=3DaFgaZKmOM&list=PLGN_3oPS-L1d6jImML0oDqzUAHDiqFlss&index=5" target="_blank" class="list-group-item list-group-item-action p-3">
+                            Psycho Killer (2005 Remaster)
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=3DaFgaZKmOM&list=PLGN_3oPS-L1d6jImML0oDqzUAHDiqFlss&index=7" target="_blank" class="list-group-item list-group-item-action p-3">
+                            You Spin Me Round (Like a Record)
                         </a>
                     </div>
                 </div>
@@ -889,15 +913,18 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
+
+            var scrollSpy = new bootstrap.ScrollSpy(document.querySelector('.scrollspy-list'), {
+                target: '#list-curiosidades'
+            });
+            
             const popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
             popoverTriggerList.map(function (popoverTriggerEl) {
             return new bootstrap.Popover(popoverTriggerEl);
             });
         });
         
-        var scrollSpy = new bootstrap.ScrollSpy(document.querySelector('.scrollspy-list'), {
-            target: '#list-curiosidades'
-        });
+        
     </script>
 
 </body>
