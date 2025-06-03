@@ -15,9 +15,9 @@ body {
     background-color: #d40000;
     color: white;
     font-weight: bold;
-}
+    }
 .btn-login:hover {
-    background-color: #a80000;
+    background-color: #870f0f;
 }
 .login-title {
     color: #ff0000;
